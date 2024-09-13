@@ -1,0 +1,69 @@
+body{
+    background-color: hsl(148, 38%, 91%);
+    color: hsl(169, 82%, 27%);
+    font-family: 'Karla',sans-serif;
+    
+}
+
+/* mobile  */
+.container{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    border-radius: 15px;
+    margin: 20px;
+    padding-bottom: 30px;
+    
+
+}
+
+h1{
+    
+}
+
+.card{
+    margin-bottom: 10px;
+}
+
+input[type="text"],input[type="email"]{
+    border-radius: 8px;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px 0px 12px 0px;
+    
+}
+
+.general-card,.support-card{
+    border: 1px solid black;
+    border-radius: 8px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    font-size: 20px;
+    padding: 10px 10px 0px 20px;
+    color: black;
+}
+
+
+#message{
+    height: 150px;
+    margin: 10px 0px 20px 0px;
+
+}
+
+input[type="checkbox"]{
+    margin: 10px 10px 20px 0px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: hsl(169, 82%, 27%);
+    color: white;
+}
+
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Contact form</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h1>Contact Us</h1>
+    <form id="contactForm">
+      <div class="fname-card card">
+        <label>First Name</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name">
+      </div>
+
+      <div class="lname-card card">
+        <label>Last Name</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name">
+      </div>
+
+      <div class="email-card card">
+        <label>Email Address</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email"> 
+      </div>
+
+      <div class="query">
+        <p>Query Type</p>
+        <div class="general-card card">
+          <input type="radio" id="general" name="query" value="general">
+          <label>General Enquiry</label>
+        </div>
+
+        <div class="support-card card">
+          <input type="radio" id="support" name="query" value="support">
+          <label>Support Request</label>
+        </div>
+      </div>
+
+      <div class="message-card card">
+        <label>Message</label><br>
+        <input type="text" id="message" name="message" placeholder="Enter your message">
+      </div>
+
+      <div class="checkbox-card card">
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <label>I consent to being contacted by the team</label>
+      </div>
+
+      <input type="submit" id="submit" value="Submit">
+    </form>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
